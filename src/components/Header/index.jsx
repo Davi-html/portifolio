@@ -4,6 +4,8 @@ import { IoMenu } from "react-icons/io5";
 import { MdOutlineWbSunny } from "react-icons/md";
 
 import { useState } from "react";
+import { Fade } from "react-awesome-reveal";
+
 
 export function Header(){
 
@@ -37,10 +39,8 @@ export function Header(){
                     <a href="" className='pt'>PT</a> 
                     <MdOutlineWbSunny className='sun'/>
                 </div>
-
-
             </nav>
-
+            
             <IoMenu className='hamburguer' onClick={openMenu}/>
 
         </Container>

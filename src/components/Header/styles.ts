@@ -86,6 +86,7 @@ export const Container = styled.header`
             font-size: 48px;
             padding: 12px;
         }
+
     }
 
     @media (min-width: 689px){
@@ -105,7 +106,21 @@ export const Container = styled.header`
 
     .open {
         display: flex;
+        animation-name: animacao;
+        animation-duration: 2s;
     }
+
+    @keyframes animacao {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+        
+    }
+
 
 `;
 
