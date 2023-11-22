@@ -11,8 +11,8 @@ export function Main() {
     <Container>
       <Fade cascade damping={0.1}>
         <div className="description">
-          <h1>Oi, eu sou o Davi</h1>
-          <h2>Desenvolvedor Frontend</h2>
+          <h1>Hi, i'm Davi</h1>
+          <h2>FrontEnd developer</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Reiciendis, consectetur quis ab, non nostrum asperiores officia veritatis quia rem autem 
@@ -25,7 +25,7 @@ export function Main() {
               color="#413A4F"
             />
             <Button
-              name="About me"
+              name="Projets"
               IconR={<IoArrowForward size={24} color="white" />}
               color="#8A42DB"
             />
