@@ -27,6 +27,8 @@ export const Container = styled.header`
         display: flex;
         align-items: center;
         gap: 30px;
+        z-index: 999;
+        
     }
 
     .sun {
@@ -107,7 +109,7 @@ export const Container = styled.header`
     .open {
         display: flex;
         animation-name: animacao;
-        animation-duration: 2s;
+        animation-duration: 1s;
     }
 
     @keyframes animacao {
@@ -120,7 +122,6 @@ export const Container = styled.header`
         }
         
     }
-
 
 `;
 

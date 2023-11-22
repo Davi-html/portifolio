@@ -4,3 +4,26 @@
     box-sizing: border-box;
     font-family: 'Heebo', sans-serif;
 }
+
+#root {
+    height: 100vh;
+}
+
+body {
+    background-color: #171023;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: medium;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: medium;
+}
+
+p {
+    font-size: 16px;
+    font-weight: regular;
+}
