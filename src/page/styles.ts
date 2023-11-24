@@ -3,13 +3,15 @@ import styled from "styled-components";
 export const Container = styled.div`
     height: 100vh;
 
-    .container {
+    .about-me {
         padding: 40px;
         
         display: flex;
         flex-direction: column;
         align-items: center;
 
+        background: #2C243B;
+        
         
         img {
             width: 243px;
@@ -53,6 +55,161 @@ export const Container = styled.div`
 
         }
     }
+
+    .projects {
+        width: 100%;
+        height: auto;
+        padding: 48px 24px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .div-button {
+            width: 128px;
+            height: 56px;
+            margin: 0 auto;
+        }
+
+        #project-p{
+            color: #7DFFAF;
+            font-family: kalam;
+            margin-bottom: 16px;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-family: Heebo;
+            font-weight: 500;
+            line-height: 32px;
+            word-wrap: break-word;
+            margin-bottom: 40px;
+            text-align: center;
+            width: 312px;
+        }
+
+        .card-body {
+            border-radius: 16px;
+            padding: 16px;
+            margin-bottom: 40px;
+
+            width: 100%;
+            height: auto;
+
+            background: #2C243B;
+
+            @media (min-width: 358px){
+                width: 384px;
+                height: auto;
+            }
+        }
+
+        .card-content {
+
+            .img {
+                display: flex;
+                justify-content: center;
+            }
+
+            .img img {
+                width: 280px;
+                height: 160px;
+            }
+
+            .section {
+                display: flex;
+                margin:  16px 0px;
+            }
+
+            .section svg {
+                margin-left: 8px;
+            }
+
+            .section p {
+                margin-right: auto;
+                
+                color: #CDD0D4;
+            }
+
+            #title {
+                font-size: 20px;
+                margin-bottom: 8px;
+                font-weight: 500;
+                line-height: 24px;
+
+                font-family: Heebo;
+                word-wrap: break-word
+            }
+
+            @media (min-width: 358px){
+                .img img {
+                    width: 336px;
+                    height: 160px;
+                }
+                
+                width: 336px;
+                height: auto;
+            }
+        }
+
+        @media (min-width: 358px){
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            
+            #project-p{
+                margin: 8;
+                text-align: center;
+            }
+
+            h2 {
+                margin:  0 auto 40px;
+            }
+        }
+
+        .all-cards{
+            @media (min-width: 786px){
+                display: grid;
+                grid-template-rows: auto auto ;
+                grid-template-columns: auto auto ;
+
+                justify-content: center;
+                align-items: center;
+                gap: 32px;
+                
+                #project-p{
+                    margin: 8;
+                    text-align: center;
+                }
+
+                h2 {
+                    margin:  0 auto 40px;
+                }
+            }
+
+            @media (min-width: 1228px){
+                display: grid;
+                grid-template-rows: auto auto ;
+                grid-template-columns: auto auto auto ;
+
+                justify-content: center;
+                align-items: center;
+                gap: 32px;
+
+                
+                #project-p{
+                    margin: 8;
+                    text-align: center;
+                }
+
+                h2 {
+                    margin:  0 auto 40px;
+                }
+            }
+        }
+        
+    }
+    
 
 
 `;
