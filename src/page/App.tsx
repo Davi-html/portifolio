@@ -24,7 +24,7 @@ export function App() {
       <Fade cascade damping={0.1}>
         <section>
           <div className="about-me" id="about">
-            <img src="/src/assets/foto-perfil.svg" alt="" />
+            <img src="https://65616c49a9fd6e61dce56405--steady-speculoos-0e2510.netlify.app/foto-perfil.svg" alt="" />
             <div className="resume">
               <div className="icons">
                 <IoLogoJavascript color="#9955E8" />
@@ -70,7 +70,7 @@ export function App() {
                 <div className="card-body">
                   <div className="card-content">
                     <div className="img">
-                      <img src="/src/assets/Project image.png" alt="" />
+                      <img src="https://65616c49a9fd6e61dce56405--steady-speculoos-0e2510.netlify.app/Project%20image.png" alt="" />
                     </div>
                     <div className="section">
                       <p id="date">Jul - Dec 2020</p>
@@ -89,7 +89,7 @@ export function App() {
                 <div className="card-body">
                   <div className="card-content">
                     <div className="img">
-                      <img src="/src/assets/Project image.png" alt="" />
+                      <img src="https://65616c49a9fd6e61dce56405--steady-speculoos-0e2510.netlify.app/contact.svg" alt="" />
                     </div>
                     <div className="section">
                       <p id="date">Jul - Dec 2020</p>

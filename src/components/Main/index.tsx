@@ -35,7 +35,7 @@ export function Main() {
           </div>
         </div>
       </Fade>
-        <img src="blob:https://www.figma.com/048a8fd9-bd13-4c45-935a-c995bbb44f21" alt="" />
+        <img src="https://65616c49a9fd6e61dce56405--steady-speculoos-0e2510.netlify.app/bro.svg" alt="" />
     </Container>
   );
 }
