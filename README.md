@@ -2,6 +2,8 @@
 
 Bem-vindo ao meu portfólio pessoal! Este projeto foi desenvolvido usando React, Vite e TypeScript para exibir minhas habilidades, projetos e informações sobre mim.
 
+[**Clique aqui para ver o meu portifólio**](my-projects-here.netlify.app/)
+
 ## Tecnologias Utilizadas
 
 - [React](https://reactjs.org/)
