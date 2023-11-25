@@ -35,7 +35,7 @@ export function App() {
               <div className="headline">
                 <p id="about-p">About me</p>
                 <h2>
-                  I’m a passionate software developer looking for my first
+                  I’m a passionate Frontend developer looking for my first
                   international oppotunity
                 </h2>
                 <p>
@@ -169,13 +169,15 @@ export function App() {
             <Input name="E-mail"/>
             <Textarea name='Your menssage'/>
             <div className="div-button">
-              <Button
-                id="cursor"
-                Icon={null}
-                name="Send me a message"
-                color="#8A42DB"
-                IconR={<IoArrowForward size={24} />}
-              />
+              <a href="">
+                <Button
+                  id="cursor"
+                  Icon={null}
+                  name="Send me a message"
+                  color="#8A42DB"
+                  IconR={<IoArrowForward size={24} />}
+                  />
+                </a>
             </div>
           </div>
         </div>

@@ -295,6 +295,10 @@ export const Container = styled.div<ContainerProps>`
                 flex:1;
             }
         }
+
+        a {
+            text-decoration:none;
+        }
     }
     
 
