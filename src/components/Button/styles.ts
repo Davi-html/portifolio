@@ -18,7 +18,3 @@ export const Container = styled.button`
     font-size: 16px;
     color: white;
 `
-
-interface button {
-    color: string;
-}
