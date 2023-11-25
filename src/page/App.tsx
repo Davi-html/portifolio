@@ -89,7 +89,7 @@ export function App() {
                 <div className="card-body">
                   <div className="card-content">
                     <div className="img">
-                      <img src="https://65616c49a9fd6e61dce56405--steady-speculoos-0e2510.netlify.app/contact.svg" alt="" />
+                      <img src="https://65616c49a9fd6e61dce56405--steady-speculoos-0e2510.netlify.app/Project%20image.png" alt="" />
                     </div>
                     <div className="section">
                       <p id="date">Jul - Dec 2020</p>
@@ -108,7 +108,7 @@ export function App() {
                 <div className="card-body">
                   <div className="card-content">
                     <div className="img">
-                      <img src="/src/assets/Project image.png" alt="" />
+                      <img src="https://65616c49a9fd6e61dce56405--steady-speculoos-0e2510.netlify.app/Project%20image.png" alt="" />
                     </div>
                     <div className="section">
                       <p id="date">Jul - Dec 2020</p>
@@ -139,7 +139,7 @@ export function App() {
       <section>
         <div className="all-info" id="contact">
           <div className="info">
-            <div className="img-info"><img src="/src/assets/contact.svg" alt="" /></div>
+            <div className="img-info"><img src="https://65616c49a9fd6e61dce56405--steady-speculoos-0e2510.netlify.app/contact.svg" alt="" /></div>
             <p id="contact-p">Contact</p>
             <Fade cascade damping={0.1}>
               <h2>Enjoyed my work? Let’s work together</h2>
