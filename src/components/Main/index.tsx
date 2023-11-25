@@ -20,18 +20,24 @@ export function Main() {
             voluptates qui sapiente? Quae, quisquam architecto necessitatibus deleniti doloribus.
           </p>
           <div className="div-button">
-            <Button
-              IconR={null}
-              name="About me"
-              Icon={<SiReaddotcv size={24} />}
-              color="#413A4F"
-            />
-            <Button
-              Icon={null}
-              name="Projets"
-              IconR={<IoArrowForward size={24} color="white" />}
-              color="#8A42DB"
-            />
+            <a href="#about">
+              <Button
+                id="cursor"
+                IconR={null}
+                name="About me"
+                Icon={<SiReaddotcv size={24} />}
+                color="#413A4F"
+              />
+            </a>
+            <a href="#projects">
+              <Button
+                id="cursor"
+                Icon={null}
+                name="Projets"
+                IconR={<IoArrowForward size={24} color="white" />}
+                color="#8A42DB"
+                />
+              </a>
           </div>
         </div>
       </Fade>

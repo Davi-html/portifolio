@@ -12,6 +12,11 @@ export const Container = styled.main`
         gap: 10px;
     }
 
+    a {
+        flex: 1;
+        text-decoration: none;
+    }
+
     display: flex;
     flex-direction: column-reverse;
     align-items: center;

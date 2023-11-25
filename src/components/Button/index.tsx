@@ -7,6 +7,7 @@ interface ButtonProps {
   Icon: ReactNode; // Alterado para ReactNode
   IconR: ReactNode; // Alterado para ReactNode
   color: string;
+  id: string;
 }
 
 export function Button({name, Icon, IconR, ...rest}: ButtonProps){

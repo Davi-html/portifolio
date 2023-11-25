@@ -5,6 +5,7 @@ declare module '../Button' {
     name: string;
     Icon: React.ReactNode;
     IconR: React.ReactNode;
+    id: string
     color?: string;
     // outras propriedades se necessário
   }

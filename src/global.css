@@ -28,3 +28,7 @@ p {
     font-size: 16px;
     font-weight: regular;
 }
+
+#cursor {
+    cursor: pointer;
+}

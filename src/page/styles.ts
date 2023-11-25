@@ -17,6 +17,9 @@ export const Container = styled.div<ContainerProps>`
 
         background: #2C243B;
         
+        a {
+            text-decoration: none;
+        }
         
         img {
             width: 243px;
@@ -27,6 +30,7 @@ export const Container = styled.div<ContainerProps>`
             width: 160px;
             margin-top: 32px;
         }
+
 
         .icons {
             display: flex;
