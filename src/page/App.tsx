@@ -22,7 +22,7 @@ export function App() {
       <Main />
       <Fade cascade damping={0.1}>
         <section>
-          <div className="about-me">
+          <div className="about-me" id="about">
             <img src="/src/assets/foto-perfil.svg" alt="" />
             <div className="resume">
               <div className="icons">
@@ -57,7 +57,7 @@ export function App() {
       </Fade>
 
       <section>
-          <div className="projects">
+          <div className="projects" id="projects">
             <Fade cascade damping={0.1}>
               <p id="project-p">Projects</p>
               <h2>Take a look at my highlighted projects</h2>
@@ -134,31 +134,49 @@ export function App() {
       </section>
 
       <section>
-        <div className="all-info">
+        <div className="all-info" id="contact">
           <div className="info">
             <div className="img-info"><img src="/src/assets/contact.svg" alt="" /></div>
             <p id="contact-p">Contact</p>
-            <h2>Enjoyed my work? Let’s work together</h2>
-            <p>
-              I’m always up for a chat. Pop me an email at <a>davifernandes3674@gmail.com</a> or give me a shout on social media. 
-            </p>
-            <div className="social-icon">
-              <FaGithub size={50} color='white'/> <CiLinkedin size={50}/> <CiInstagram size={50}/>
-            </div>
+            <Fade cascade damping={0.1}>
+              <h2>Enjoyed my work? Let’s work together</h2>
+              <p>
+                I’m always up for a chat. Pop me an email at <span>davifernandes3674@gmail.com</span> or give me a shout on social media. 
+              </p>
+            <Fade cascade damping={0.1}></Fade>
+              <div className="social-icon">
+                <a href="https://github.com/Davi-html" target="_blank">
+                  <FaGithub size={50} color='white'/>
+                </a>
+                <a href="https://www.linkedin.com/in/davi-fernandes-alves-1a48b1273/" target="_blank">
+                  <CiLinkedin size={50}/>
+                </a>
+                <a href="https://www.instagram.com/davi.fcxp/" target="_blank">
+                <CiInstagram size={50}/>
+                </a>
+              </div>
+            </Fade>
           </div>
           <div className="form">
             <Input name="Name"/>
             <Input name="E-mail"/>
             <Textarea name='Your menssage'/>
+            <div className="div-button">
+              <Button
+                name="Send me a message"
+                color="#8A42DB"
+                IconR={<IoArrowForward size={24} />}
+              />
+            </div>
           </div>
         </div>
       </section>  
 
       <footer>
-        <a href="https://github.com/Davi-html">GitHub</a>
-        <a href="https://www.linkedin.com/in/davi-fernandes-alves-1a48b1273/">Linkedin</a>
-        <a href="">Instagram</a> <a href="#topo">
-        <IoArrowUp size={25}/></a>
+        <a href="https://github.com/Davi-html" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/davi-fernandes-alves-1a48b1273/" target="_blank">Linkedin</a>
+        <a href="https://www.instagram.com/davi.fcxp/" target="_blank">Instagram</a>
+        <a href="#topo"><IoArrowUp size={25}/></a>
       </footer>
       
     </Container>

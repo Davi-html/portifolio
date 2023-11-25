@@ -214,6 +214,10 @@ export const Container = styled.div`
         background: #2C243B;
         padding: 48px 24px;
 
+        textarea {
+            margin-bottom: 32px;
+        }
+
         img {
             width: 160px;
             height: 160px;
@@ -221,7 +225,6 @@ export const Container = styled.div`
         }
 
         .form {
-            margin-bottom: 32px;
             margin-top: 48px;
 
             display: flex;
@@ -242,19 +245,46 @@ export const Container = styled.div`
             margin-bottom: 16px;
         }
         
-        a {
+        span {
             color: #7DFFAF;
             text-decoration: underline;
         }
 
+        a {
+            color: white;
+        }
+
         .social-icon {
             margin-top: 40px;
+
+            display: flex;
+            gap: 8px;
         }
 
         .social-icon svg {
             background-color: #413A4F;
             border-radius: 8px;
             padding: 12px;
+        }
+
+        .div-button{
+            width: 225px;
+        }
+
+        @media (min-width: 760px){
+            display: flex;  
+            justify-content: center;
+            align-items: center;
+
+            gap: 136px;
+            
+            .info {
+                flex: 1;
+            }
+
+            .form {
+                flex:1;
+            }
         }
     }
     

@@ -25,11 +25,11 @@ export function Header() {
         } `}
       >
         <strong>
-          <a href="">Home</a>
+          <a href="#description">Home</a>
         </strong>
-        <a href="">About</a>
-        <a href="">Projets</a>
-        <a href="">Contact</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projets</a>
+        <a href="#contact">Contact</a>
         <hr />
         <div className="div-pt">
           <a href="" className="pt">

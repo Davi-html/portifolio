@@ -8,9 +8,9 @@ import { Fade } from "react-awesome-reveal";
 
 export function Main() {
   return (
-    <Container>
+    <Container id='description'>
       <Fade cascade damping={0.1}>
-        <div className="description">
+        <div className="description" id="description">
           <h1>Hi, i'm Davi</h1>
           <h2>FrontEnd developer</h2>
           <p>
