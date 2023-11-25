@@ -4,7 +4,6 @@ import { IoMenu } from "react-icons/io5";
 import { MdOutlineWbSunny } from "react-icons/md";
 
 import { useState } from "react";
-import { Fade } from "react-awesome-reveal";
 
 export function Header() {
   const [isMobileMenuOpen, setMobileMenu] = useState(false);
