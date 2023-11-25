@@ -1,6 +1,10 @@
 import {Container} from './styles'
 
-export function Textarea({name}){
+interface InputProps {
+    name: string
+}
+
+export function Input({name}:InputProps){
     return(
         <Container placeholder={name}>
         </Container>

@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export interface ContainerProps {
+    // defina as propriedades estilizadas, se houver
+  }
+  
+
+export const Container = styled.div<ContainerProps>`
     height: 100vh;
 
     .about-me {

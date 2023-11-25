@@ -15,6 +15,7 @@ import { FaGithub } from "react-icons/fa";
 
 
 
+
 export function App() {
   return (
     <Container>
@@ -46,6 +47,7 @@ export function App() {
               </div>
               <div className="div-button">
                 <Button
+                  IconR={null}
                   name="Projects"
                   color="#8A42DB"
                   Icon={<SiReaddotcv size={24} />}
@@ -124,6 +126,7 @@ export function App() {
             <Fade cascade damping={0.1}>
               <div className="div-button">
                 <Button
+                  Icon={null}
                   name="See all"
                   color="#413A4F"
                   IconR={<IoArrowForward size={24} />}
@@ -163,6 +166,7 @@ export function App() {
             <Textarea name='Your menssage'/>
             <div className="div-button">
               <Button
+                Icon={null}
                 name="Send me a message"
                 color="#8A42DB"
                 IconR={<IoArrowForward size={24} />}

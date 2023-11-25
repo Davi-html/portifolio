@@ -6,7 +6,12 @@ import { IoArrowForward } from "react-icons/io5";
 
 import { Fade } from "react-awesome-reveal";
 
-export function Main() {
+
+interface MainProps {
+
+}
+
+export function Main({}:MainProps) {
   return (
     <Container id='description'>
       <Fade cascade damping={0.1}>
@@ -20,11 +25,13 @@ export function Main() {
           </p>
           <div className="div-button">
             <Button
+              IconR={null}
               name="About me"
               Icon={<SiReaddotcv size={24} />}
               color="#413A4F"
             />
             <Button
+              Icon={null}
               name="Projets"
               IconR={<IoArrowForward size={24} color="white" />}
               color="#8A42DB"

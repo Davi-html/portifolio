@@ -5,6 +5,10 @@ import { MdOutlineWbSunny } from "react-icons/md";
 
 import { useState } from "react";
 
+interface HeaderProps {
+  
+}
+
 export function Header() {
   const [isMobileMenuOpen, setMobileMenu] = useState(false);
   const [isMobileMenuClosed, setMobileMenuClosed] = useState(false);
@@ -15,7 +19,7 @@ export function Header() {
   };
 
   return (
-    <Container navbar={{ sm: 640, xl: 1440 }} id="topo">
+    <Container  id="topo">
       <h2>Davi Alves</h2>
 
       <nav
