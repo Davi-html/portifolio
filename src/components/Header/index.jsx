@@ -16,7 +16,7 @@ export function Header() {
   };
 
   return (
-    <Container navbar={{ sm: 640, xl: 1440 }}>
+    <Container navbar={{ sm: 640, xl: 1440 }} id="topo">
       <h2>Davi Alves</h2>
 
       <nav

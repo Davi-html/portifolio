@@ -209,9 +209,69 @@ export const Container = styled.div`
         }
         
     }
+
+    .all-info {
+        background: #2C243B;
+        padding: 48px 24px;
+
+        img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+        }
+
+        .form {
+            margin-bottom: 32px;
+            margin-top: 48px;
+
+            display: flex;
+            flex-direction: column;
+        }
+
+        #contact-p {
+            color: #7DFFAF;
+            font-family: kalam;
+            margin-bottom: 16px;
+        }
+
+        .img-info {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            margin-bottom: 16px;
+        }
+        
+        a {
+            color: #7DFFAF;
+            text-decoration: underline;
+        }
+
+        .social-icon {
+            margin-top: 40px;
+        }
+
+        .social-icon svg {
+            background-color: #413A4F;
+            border-radius: 8px;
+            padding: 12px;
+        }
+    }
     
 
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
+        gap: 30px;
+
+        height: 100px;
+
+        a {
+            color: white;
+        }
+    }
 `;
 
 
