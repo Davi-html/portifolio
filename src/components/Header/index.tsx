@@ -5,9 +5,6 @@ import { MdOutlineWbSunny } from "react-icons/md";
 
 import { useState } from "react";
 
-interface HeaderProps {
-  
-}
 
 export function Header() {
   const [isMobileMenuOpen, setMobileMenu] = useState(false);

@@ -7,11 +7,7 @@ import { IoArrowForward } from "react-icons/io5";
 import { Fade } from "react-awesome-reveal";
 
 
-interface MainProps {
-
-}
-
-export function Main({}:MainProps) {
+export function Main() {
   return (
     <Container id='description'>
       <Fade cascade damping={0.1}>
