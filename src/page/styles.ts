@@ -116,13 +116,11 @@ export const Container = styled.div<ContainerProps>`
                 
                 justify-content: space-around;
 
-                display: flex;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px;
 
                 margin-top: 10px;
-                
-                button {
-                    padding: 0 10px;
-                }
             }
 
             background: #2C243B;
