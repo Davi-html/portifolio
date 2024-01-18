@@ -123,6 +123,11 @@ export const Container = styled.div<ContainerProps>`
             .img img {
                 width: 280px;
                 height: 160px;
+                filter: grayscale(100%);
+            }
+
+            .img img:hover {
+                filter: grayscale(0%);
             }
 
             .section {
@@ -316,5 +321,3 @@ export const Container = styled.div<ContainerProps>`
         }
     }
 `;
-
-
