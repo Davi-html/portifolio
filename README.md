@@ -17,5 +17,7 @@ Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em seu ambiente 
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-portifolio.git
-   cd seu-portifolio
+   git clone https://github.com/Davi-html/portifolio.git
+   cd portifolio
+   npm i
+   npm run dev
