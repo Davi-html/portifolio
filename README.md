@@ -19,5 +19,5 @@ Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em seu ambiente 
    ```bash
    git clone https://github.com/Davi-html/portifolio.git
    cd portifolio
-   npm i
+   npm install
    npm run dev

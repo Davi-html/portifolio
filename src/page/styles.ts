@@ -141,14 +141,7 @@ export const Container = styled.div<ContainerProps>`
             .img img {
                 width: 280px;
                 height: 160px;
-                filter: grayscale(100%);
-                transition: all 0.6s ease;
                 cursor: pointer;
-            }
-
-            .img img:hover {
-                transition: all 0.6s ease;
-                filter: grayscale(0%);
             }
 
             .section {
@@ -162,7 +155,6 @@ export const Container = styled.div<ContainerProps>`
 
             .section p {
                 margin-right: auto;
-                
                 color: #CDD0D4;
             }
 
@@ -220,6 +212,7 @@ export const Container = styled.div<ContainerProps>`
                 h2 {
                     margin:  0 auto 40px;
                 }
+
             }
 
             @media (min-width: 1228px){
@@ -230,7 +223,6 @@ export const Container = styled.div<ContainerProps>`
                 justify-content: center;
                 align-items: center;
                 gap: 32px;
-
                 
                 #project-p{
                     margin: 8;
