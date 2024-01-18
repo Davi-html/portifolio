@@ -12,8 +12,8 @@ import { SiTailwindcss, SiTypescript, SiReaddotcv } from "react-icons/si";
 import { IoArrowForward, IoArrowUp  } from "react-icons/io5";
 import { CiLinkedin, CiInstagram  } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
-
-
+import { GrDeploy } from "react-icons/gr";
+import { RiGitRepositoryCommitsFill } from "react-icons/ri";
 
 
 export function App() {
@@ -84,6 +84,26 @@ export function App() {
                     <p id="desc">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, quae iusto molestias, impedit recusandae beatae magni quisquam officiis laudantium numquam, fugit atque rerum vero. Molestiae voluptas blanditiis reiciendis consectetur eum!
                     </p>
+                    <div className="repo-deploy">
+                    <a href="https://github.com/Davi-html/portifolio" target="blank">
+                      <Button
+                        id="cursor"
+                        Icon={null}
+                        name="Deploy"
+                        color="#8A42DB"
+                        IconR={<GrDeploy size={24} />}
+                        />
+                    </a>
+                    <a href="https://github.com/Davi-html/portifolio" target="blank">
+                      <Button
+                        id="cursor"
+                        Icon={null}
+                        name="Repositório"
+                        color="#8A42DB"
+                        IconR={<RiGitRepositoryCommitsFill size={24} />}
+                        />
+                    </a>
+                  </div>
                   </div>
                 </div>
               </Fade>
@@ -103,6 +123,26 @@ export function App() {
                     <p id="desc">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, quae iusto molestias, impedit recusandae beatae magni quisquam officiis laudantium numquam, fugit atque rerum vero. Molestiae voluptas blanditiis reiciendis consectetur eum!
                     </p>
+                    <div className="repo-deploy">
+                    <a href="https://github.com/Davi-html/portifolio" target="blank">
+                      <Button
+                        id="cursor"
+                        Icon={null}
+                        name="Deploy"
+                        color="#8A42DB"
+                        IconR={<GrDeploy size={24} />}
+                        />
+                    </a>
+                    <a href="https://github.com/Davi-html/portifolio" target="blank">
+                      <Button
+                        id="cursor"
+                        Icon={null}
+                        name="Repositório"
+                        color="#8A42DB"
+                        IconR={<RiGitRepositoryCommitsFill size={24} />}
+                        />
+                    </a>
+                  </div>
                   </div>
                 </div>
               </Fade>
@@ -122,16 +162,27 @@ export function App() {
                     <p id="desc">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, quae iusto molestias, impedit recusandae beatae magni quisquam officiis laudantium numquam, fugit atque rerum vero. Molestiae voluptas blanditiis reiciendis consectetur eum!
                     </p>
+                    <div className="repo-deploy">
+                    <a href="https://github.com/Davi-html/portifolio" target="blank">
+                      <Button
+                        id="cursor"
+                        Icon={null}
+                        name="Deploy"
+                        color="#8A42DB"
+                        IconR={<GrDeploy size={24} />}
+                        />
+                    </a>
+                    <a href="https://github.com/Davi-html/portifolio" target="blank">
+                      <Button
+                        id="cursor"
+                        Icon={null}
+                        name="Repositório"
+                        color="#8A42DB"
+                        IconR={<RiGitRepositoryCommitsFill size={24} />}
+                        />
+                    </a>
                   </div>
-                  <a href="">
-                <Button
-                  id="cursor"
-                  Icon={null}
-                  name="Send me a message"
-                  color="#8A42DB"
-                  IconR={<IoArrowForward size={24} />}
-                  />
-                </a>
+                  </div>
                 </div>
               </Fade>
             </div>
@@ -142,7 +193,7 @@ export function App() {
                   Icon={null}
                   name="See all"
                   color="#413A4F"
-                  IconR={<IoArrowForward size={24} />}
+                  IconR={<RiGitRepositoryCommitsFill size={24} />}
                   />
               </div>
             </Fade>

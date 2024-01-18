@@ -102,8 +102,28 @@ export const Container = styled.div<ContainerProps>`
             padding: 16px;
             margin-bottom: 40px;
 
+            display: flex;
+            justify-content: center;
             width: 100%;
             height: auto;
+
+            a {
+                text-decoration: none;
+            }
+
+            .repo-deploy{
+                width: 100%;
+                
+                justify-content: space-around;
+
+                display: flex;
+
+                margin-top: 10px;
+                
+                button {
+                    padding: 0 10px;
+                }
+            }
 
             background: #2C243B;
 
@@ -124,10 +144,12 @@ export const Container = styled.div<ContainerProps>`
                 width: 280px;
                 height: 160px;
                 filter: grayscale(100%);
+                transition: all 0.6s ease;
                 cursor: pointer;
             }
 
             .img img:hover {
+                transition: all 0.6s ease;
                 filter: grayscale(0%);
             }
 
