@@ -123,6 +123,15 @@ export function App() {
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, quae iusto molestias, impedit recusandae beatae magni quisquam officiis laudantium numquam, fugit atque rerum vero. Molestiae voluptas blanditiis reiciendis consectetur eum!
                     </p>
                   </div>
+                  <a href="">
+                <Button
+                  id="cursor"
+                  Icon={null}
+                  name="Send me a message"
+                  color="#8A42DB"
+                  IconR={<IoArrowForward size={24} />}
+                  />
+                </a>
                 </div>
               </Fade>
             </div>

@@ -124,6 +124,7 @@ export const Container = styled.div<ContainerProps>`
                 width: 280px;
                 height: 160px;
                 filter: grayscale(100%);
+                cursor: pointer;
             }
 
             .img img:hover {
