@@ -8,8 +8,8 @@ import { Slider }  from '../components/Slider'
 
 import { Fade } from "react-awesome-reveal";
 
-import { IoLogoJavascript, IoLogoReact } from "react-icons/io5";
-import { SiTailwindcss, SiTypescript, SiReaddotcv } from "react-icons/si";
+import { IoLogoReact } from "react-icons/io5";
+import { SiTypescript, SiReaddotcv } from "react-icons/si";
 import { IoArrowForward, IoArrowUp  } from "react-icons/io5";
 import { CiLinkedin, CiInstagram  } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
