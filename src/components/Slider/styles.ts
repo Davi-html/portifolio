@@ -123,4 +123,6 @@ export const Container = styled.div`
   .arrow--disabled {
     fill: rgba(255, 255, 255, 0.5);
   }
+
 `;
+
