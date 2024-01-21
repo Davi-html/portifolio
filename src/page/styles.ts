@@ -31,14 +31,6 @@ export const Container = styled.div<ContainerProps>`
             margin-top: 32px;
         }
 
-
-        .icons {
-            display: flex;
-            gap: 24px;
-            margin-bottom: 32px ;
-            margin-top: 20px;
-        }
-
         #about-p{
             color: #7DFFAF;
             font-family: kalam;

@@ -15,9 +15,7 @@ export function Main() {
           <h1>Hi, i'm Davi</h1>
           <h2>FrontEnd developer</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Reiciendis, consectetur quis ab, non nostrum asperiores officia veritatis quia rem autem 
-            voluptates qui sapiente? Quae, quisquam architecto necessitatibus deleniti doloribus.
+            I'm a Frontend Programmer. I've been studying for 3 years and I intend to one day become a FullStack Programmer. Starting Programming in 2021, I recognize myself as an enthusiast in new technologies on the market, with learning acquired day after day.
           </p>
           <div className="div-button">
             <a href="#about">

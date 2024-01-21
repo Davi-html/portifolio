@@ -4,6 +4,7 @@ import { Main } from "../components/Main";
 import { Button } from "../components/Button";
 import {Input} from '../components/Input'
 import { Textarea } from '../components/Textarea'
+import { Slider }  from '../components/Slider'
 
 import { Fade } from "react-awesome-reveal";
 
@@ -23,26 +24,17 @@ export function App() {
       <Main />
       <Fade cascade damping={0.1}>
         <section>
+          <Slider/>
           <div className="about-me" id="about">
             <img src="https://65616c49a9fd6e61dce56405--steady-speculoos-0e2510.netlify.app/foto-perfil.svg" alt="" />
             <div className="resume">
-              <div className="icons">
-                <IoLogoJavascript color="#9955E8" />
-                <IoLogoReact color="#9955E8" />
-                <SiTypescript color="#9955E8" />
-                <SiTailwindcss color="#9955E8" />
-              </div>
               <div className="headline">
                 <p id="about-p">About me</p>
                 <h2>
-                  I’m a passionate Frontend developer looking for my first
-                  international oppotunity
+                I focus on development with JavaScript, TypeScript, React, among other technologies that I use to create web applications.
                 </h2>
                 <p>
-                  I am currently seeking opportunities to bring my skills and
-                  enthusiasm to a tech company in the United States or Europe
-                  and am excited about the prospect of relocating to pursue new
-                  challenges.
+                  I consider myself agile and consistent in learning a new language and adapting to any change, ready to overcome any challenge! If I could describe myself in 3 words, they would certainly be: optimistic, persevering and hardworking! :)
                 </p>
               </div>
               <div className="div-button">

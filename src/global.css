@@ -3,6 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Heebo', sans-serif;
+    -webkit-user-drag: none;
+    user-select: none;
 }
 
 #root {
