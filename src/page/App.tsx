@@ -185,7 +185,7 @@ export function App() {
                   Icon={null}
                   name="See all"
                   color="#413A4F"
-                  IconR={<RiGitRepositoryCommitsFill size={24} />}
+                  IconR={<SiReaddotcv size={24} />}
                   />
               </div>
             </Fade>

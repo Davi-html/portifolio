@@ -37,28 +37,28 @@ export function Slider() {
       <div className="navigation-wrapper">
         <div ref={sliderRef} className="keen-slider">
           <Tooltip title="React" placement="top"> 
-            <div className="keen-slider__slide number-slide2"><IoLogoReact/></div>
+            <div className="keen-slider__slide number-slide2"><IoLogoReact/>React</div>
           </Tooltip>
           <Tooltip title="TypeScript" placement="top"> 
-            <div className="keen-slider__slide number-slide3"><SiTypescript/></div>
+            <div className="keen-slider__slide number-slide3"><SiTypescript/>TypeScript</div>
           </Tooltip>
           <Tooltip title="JavaScript" placement="top"> 
-            <div className="keen-slider__slide number-slide4"><IoLogoJavascript/></div>
+            <div className="keen-slider__slide number-slide4"><IoLogoJavascript/>JavaScript</div>
           </Tooltip>
           <Tooltip title="NodeJs" placement="top"> 
-            <div className="keen-slider__slide number-slide8"><FaNodeJs/></div>
+            <div className="keen-slider__slide number-slide8"><FaNodeJs/>NodeJS</div>
           </Tooltip>
           <Tooltip title="GitHub" placement="top"> 
-            <div className="keen-slider__slide number-slide1"><FaGithub/></div>
+            <div className="keen-slider__slide number-slide1"><FaGithub/>GitHub</div>
           </Tooltip>
           <Tooltip title="Git" placement="top"> 
-            <div className="keen-slider__slide number-slide7"><FaGitAlt/></div>
+            <div className="keen-slider__slide number-slide7"><FaGitAlt/>Git</div>
           </Tooltip>
           <Tooltip title="Linux" placement="top"> 
-            <div className="keen-slider__slide number-slide5"><FcLinux/></div>
+            <div className="keen-slider__slide number-slide5"><FcLinux/>Linux</div>
           </Tooltip>
           <Tooltip title="TailwindCss" placement="top"> 
-            <div className="keen-slider__slide number-slide6"><SiTailwindcss/></div>
+            <div className="keen-slider__slide number-slide6"><SiTailwindcss/>TailwindCss</div>
           </Tooltip>
         </div>
         {loaded && instanceRef.current && (
