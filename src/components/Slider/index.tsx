@@ -51,54 +51,45 @@ export function Slider() {
       <h1>Technologies</h1>
       <div className="navigation-wrapper">
         <div ref={sliderRef} className="keen-slider">
-          <Tooltip title="React" placement="top">
-            <div className="keen-slider__slide number-slide2">
-              <IoLogoReact />
-              React
-            </div>
-          </Tooltip>
-          <Tooltip title="TypeScript" placement="top">
-            <div className="keen-slider__slide number-slide3">
-              <SiTypescript />
-              TypeScript
-            </div>
-          </Tooltip>
-          <Tooltip title="JavaScript" placement="top">
-            <div className="keen-slider__slide number-slide4">
-              <IoLogoJavascript />
-              JavaScript
-            </div>
-          </Tooltip>
-          <Tooltip title="NodeJs" placement="top">
-            <div className="keen-slider__slide number-slide8">
-              <FaNodeJs />
-              NodeJS
-            </div>
-          </Tooltip>
-          <Tooltip title="GitHub" placement="top">
-            <div className="keen-slider__slide number-slide1">
-              <FaGithub />
-              GitHub
-            </div>
-          </Tooltip>
-          <Tooltip title="Git" placement="top">
-            <div className="keen-slider__slide number-slide7">
-              <FaGitAlt />
-              Git
-            </div>
-          </Tooltip>
-          <Tooltip title="Linux" placement="top">
-            <div className="keen-slider__slide number-slide5">
-              <FcLinux />
-              Linux
-            </div>
-          </Tooltip>
-          <Tooltip title="TailwindCss" placement="top">
-            <div className="keen-slider__slide number-slide6">
-              <SiTailwindcss />
-              TailwindCss
-            </div>
-          </Tooltip>
+          <div className="keen-slider__slide number-slide2">
+            <IoLogoReact />
+            React
+          </div>
+
+          <div className="keen-slider__slide number-slide3">
+            <SiTypescript />
+            TypeScript
+          </div>
+
+          <div className="keen-slider__slide number-slide4">
+            <IoLogoJavascript />
+            JavaScript
+          </div>
+
+          <div className="keen-slider__slide number-slide8">
+            <FaNodeJs />
+            NodeJS
+          </div>
+
+          <div className="keen-slider__slide number-slide1">
+            <FaGithub />
+            GitHub
+          </div>
+
+          <div className="keen-slider__slide number-slide7">
+            <FaGitAlt />
+            Git
+          </div>
+
+          <div className="keen-slider__slide number-slide5">
+            <FcLinux />
+            Linux
+          </div>
+
+          <div className="keen-slider__slide number-slide6">
+            <SiTailwindcss />
+            TailwindCss
+          </div>
         </div>
         {loaded && instanceRef.current && (
           <>

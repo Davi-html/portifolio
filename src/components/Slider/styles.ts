@@ -13,10 +13,10 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 50px;
+    font-size: 40px;
     color: #fff;
     font-weight: 500;
-    height: 300px;
+    height: 200px;
     max-height: 100vh;
   }
 
