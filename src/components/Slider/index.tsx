@@ -1,7 +1,6 @@
 import { Container } from "./styles";
 
 import * as React from "react";
-import Tooltip from "@mui/material/Tooltip";
 
 import { SiTailwindcss, SiTypescript } from "react-icons/si";
 import { IoLogoJavascript, IoLogoReact } from "react-icons/io5";
