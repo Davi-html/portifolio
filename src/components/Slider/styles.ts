@@ -71,6 +71,19 @@ export const Container = styled.div`
     color: #93C745;
     
   }
+
+  .number-slide9 {
+    background: rgb(64, 175, 255, 0);
+    border: 1px solid white;
+    color: white;
+    font-size: 30px;
+    img {
+      width: 50px;
+      height: 50px;
+    }
+    
+  }
+
   .navigation-wrapper {
     position: relative;
   }

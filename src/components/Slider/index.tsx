@@ -6,6 +6,7 @@ import { SiTailwindcss, SiTypescript } from "react-icons/si";
 import { IoLogoJavascript, IoLogoReact } from "react-icons/io5";
 import { FaGithub, FaGitAlt, FaNodeJs } from "react-icons/fa";
 import { FcLinux } from "react-icons/fc";
+import styledcomponents from '../../assets/file-type-styled.svg'
 
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
@@ -50,6 +51,11 @@ export function Slider() {
       <h1>Technologies</h1>
       <div className="navigation-wrapper">
         <div ref={sliderRef} className="keen-slider">
+          <div className="keen-slider__slide number-slide1">
+            <FaGithub />
+            GitHub
+          </div>
+
           <div className="keen-slider__slide number-slide2">
             <IoLogoReact />
             React
@@ -65,21 +71,6 @@ export function Slider() {
             JavaScript
           </div>
 
-          <div className="keen-slider__slide number-slide8">
-            <FaNodeJs />
-            NodeJS
-          </div>
-
-          <div className="keen-slider__slide number-slide1">
-            <FaGithub />
-            GitHub
-          </div>
-
-          <div className="keen-slider__slide number-slide7">
-            <FaGitAlt />
-            Git
-          </div>
-
           <div className="keen-slider__slide number-slide5">
             <FcLinux />
             Linux
@@ -88,6 +79,21 @@ export function Slider() {
           <div className="keen-slider__slide number-slide6">
             <SiTailwindcss />
             TailwindCss
+          </div>
+
+          <div className="keen-slider__slide number-slide7">
+            <FaGitAlt />
+            Git
+          </div>
+
+          <div className="keen-slider__slide number-slide8">
+            <FaNodeJs />
+            NodeJS
+          </div>
+
+          <div className="keen-slider__slide number-slide9">
+            <img src={styledcomponents} />
+            Styled-components
           </div>
         </div>
         {loaded && instanceRef.current && (

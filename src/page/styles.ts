@@ -133,6 +133,7 @@ export const Container = styled.div<ContainerProps>`
             .img img {
                 width: 280px;
                 height: 160px;
+                border-radius: 10px 10px 0 0  ;
                 cursor: pointer;
             }
 
